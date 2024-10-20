@@ -1,0 +1,45 @@
+/* ResultsPage.css */
+
+/* تنسيق الحاوية الرئيسية */
+.results-summary {
+  background-color: #e0f7fa; /* لون خلفية الصفحة */
+  padding: 20px; /* حواف للحاوية */
+  border-radius: 10px; /* زوايا مدورة */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+
+  /* المحاذاة في الوسط */
+  display: flex; /* استخدام الفليكس */
+  flex-direction: column; /* عمود */
+  justify-content: center; /* محاذاة عمودية */
+  align-items: center; /* محاذاة أفقية */
+  height: 100vh; /* الارتفاع 100% من عرض الصفحة */
+}
+
+/* تنسيق عنوان النتائج */
+.results-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004d40; /* لون العنوان */
+}
+
+/* تنسيق نتيجة الاختبار */
+.results-score {
+  font-size: 18px;
+  color: #00796b; /* لون النص للنتيجة */
+}
+
+/* تنسيق زر إعادة التشغيل */
+.restart-button {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #004d40; /* لون عند التحويم */
+}

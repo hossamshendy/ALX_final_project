@@ -1,0 +1,39 @@
+/* src/components/QuizStart.css */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6; /* لون الخلفية */
+}
+
+.quiz-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937; /* لون النص */
+  margin-bottom: 1.5rem; /* فراغ أسفل العنوان */
+}
+
+.quiz-input {
+  border: 1px solid #e5e7eb; /* لون الحدود */
+  border-radius: 0.375rem; /* زوايا مستديرة */
+  padding: 0.75rem;
+  width: 300px;
+  margin-bottom: 1.5rem; /* فراغ أسفل الحقل */
+}
+
+.start-button {
+  background-color: #fbbf24; /* لون زر البدء */
+  color: #1f2937; /* لون النص */
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #f59e0b; /* تغيير لون الزر عند التمرير */
+}

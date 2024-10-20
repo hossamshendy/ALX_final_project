@@ -1,0 +1,69 @@
+/* CSS الخاص بك للتنسيق */
+
+/* تنسيق الحاوية الرئيسية */
+.question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* لون الخلفية */
+}
+
+/* تنسيق السؤال */
+.question-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004d40; /* لون النص */
+  margin-bottom: 20px;
+}
+
+/* تنسيق حاوية الخيارات */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* المسافة بين الخيارات */
+  margin-bottom: 30px;
+}
+
+/* تنسيق الأزرار */
+.option-button {
+  padding: 12px;
+  border: 2px solid #00796b;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #b2dfdb; /* لون عند التحويم */
+}
+
+/* تنسيق عند تحديد الخيار */
+.option-button.selected {
+  background-color: #00796b;
+  color: #ffffff;
+}
+
+/* تنسيق زر "Next" */
+.next-button {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #004d40;
+}
+
+.next-button:disabled {
+  background-color: #b2dfdb;
+  cursor: not-allowed;
+}
